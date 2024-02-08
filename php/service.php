@@ -1,7 +1,7 @@
 <?php
 
 /**
- * PHP as a service - retreiving data with fetch API
+ * PHP as a service - retreiving data as querystring
  * @author Tizedit - David G. bonacho
  */
 
