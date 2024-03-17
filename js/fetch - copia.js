@@ -6,22 +6,8 @@ function makeCall() {
     let params = new URLSearchParams();
     params.append("param1", "value1");
     params.append("param2", "value2");*/
-
-    let options = {
-        method: 'POST',
-        body: params,
-        headers: {
-            'Content-type': 'application/x-www-form-urlencoded; charset=UTF-8'
-        }
-    }
-
-    fetch('php/service.php', options)
-        .then(response => response.json())
-        .then(value => document.getElementById("res").innerHTML = runObject(value))
-        .catch(err => console.warn('Error: ', err));
-
-        
-/*     fetch('php/service.php', {
+   
+    fetch('php/service.php', {
         method: 'POST',
         body: params,
         headers: {
@@ -33,7 +19,7 @@ function makeCall() {
         document.getElementById("res").innerHTML = runObject(value);
     }).catch(function (err) {
         console.warn('Error: ', err);
-    }); */
+    });
 
 }
 
