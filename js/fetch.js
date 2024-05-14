@@ -37,12 +37,25 @@ function makeCall() {
 
 }
 
+
 function runObject(object) {
 
     let content = '';
-    for (var key in object) content += key + ' ' + object[key] + ' ';
+    for (var key in object) {
+        // recursive, jic
+        if (typeof object[key] === 'object') {
+            content += runObject(object[key]);
+        } else {
+            content += key + ' ' + object[key] + ' ';
+        }
+    }
 
     return content;
 }
+
+
+
+
+
 
 
