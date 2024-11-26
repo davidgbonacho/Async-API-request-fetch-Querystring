@@ -18,7 +18,7 @@ By clicking on the `call` button, a fetch with params (or without it) for the PH
 - css/style.css: an ultra-simple css stylesheet
 - img/logo.svg: only important images are here
 
-[Text in Spanish here](README.MD)
+[Text in Spanish here](README_ES.MD)
 
 ![](img/logo.svg)
 ---
