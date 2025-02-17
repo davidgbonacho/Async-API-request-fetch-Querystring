@@ -18,6 +18,9 @@ Al hacer clic en el botón `call`, se realizará una solicitud fetch con paráme
 - img/logo.svg: aquí se encuentran solo las imágenes importantes
 
 
+[Text in English here](README.MD)
+
+
 ![](img/logo.svg)
 ---
 `título:` Asynchronous API Requests - fetch - Querystring [`SimPIL`] 01/26/24\
